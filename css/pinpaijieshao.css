@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+i{
+    font-style: normal;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+body{
+    margin: 0 auto;
+}
+/*最顶部*/
+.topNac{
+    width: 100%;
+    height: 45px;
+    background: #e0e0e0;
+    display: flex;
+    margin: 0 auto 0 auto;
+
+}
+
+.neikuan{
+    width: 1226px;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    padding: 0 50px 0 50px;
+}
+
+.topNac .neikuan .left{
+    width: 286px;
+    height: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+    color: #757575;
+
+    align-items: center;
+
+
+}
+
+.topNac .neikuan .right{
+    width: 120px;
+    height: 100%;
+
+    text-align: center;
+    line-height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+/*头部*/
+header{
+    width: 100%;
+    height: 176px;
+    background:url("../my index/beijing.jpg") repeat center top;
+
+}
+
+header .neikuan .Top{
+    width: 100%;
+    height: 160px;
+
+}
+header .neikuan .Top .logo{
+    width: 94px;
+    height:94px;
+    background: url("../my index/Logo.png");
+    background-size: cover;
+    margin: 25px auto;
+}
+header .neikuan .bootom{
+    width: 100%;
+    height: 45px;
+
+}
+header .neikuan .bootom .wenzi{
+    width: 776px;
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+.Picture{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;}
+.Picture .AllPic{
+    width: 100%;
+    height: 288px;
+    background:url("../my index/Big.jpg");
+    background-size:100% 100%;
+}
+.content .leftW{
+    width: 851px;
+    height:515px ;
+
+}
+.content .rightP{
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+
+}
+.content .rightP div{
+    width: 250px;
+    height: 180px;
+    margin-left:125px;
+    margin-bottom: 12px;
+
+}
+
+.content{
+    width:1520px ;
+    height: 730px;
+    display: flex;
+    margin-top: 50px;
+}
+.content .leftW .title{
+    width: 100%;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+     border-bottom: #dedede 1px dashed;
+
+}
+.content .leftW .bottom{
+    width:100% ;
+    height: 429px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 12px;
+    color: #808080;
+}
+.content .leftW .bottom span{
+    margin-bottom: 50px;
+}
+.sectionbackground{
+    width: 100%;
+    height:350px ;
+    background:#f7f7f7 ;
+    margin-top: 0;
+    position: relative;
+    padding: 80px 0 80px 0;
+    overflow: hidden;
+
+}
+.sectionbackground .neikuan .Section{
+    width: 100%;
+    height:350px;
+    border-bottom: #dedede 1px solid;
+
+    display: flex;
+
+
+}
+.sectionbackground .neikuan .Section div {
+    width: 278px;
+    /*background: red;*/
+
+}
+.sectionbackground .neikuan .Section .picbox img{
+    margin-right: 10px;
+
+}
+.sectionbackground .neikuan .Section .Swenzi{
+    display: flex;
+    flex-direction: column;
+}
+.logoin li span{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../my index/tubiao.png");
+    background-position: -24px -72px;
+    margin-right: 10px;
+
+;
+}
+ul .wenxin{
+    display: block;
+    width: 34px;
+    height: 28px;
+}
+ul .wenxin span{
+    background-position: 0px -72px;
+}
+ul .xiangji span{
+    background-position: 288px -72px;
+}
+ul .four span{
+    background-position: 216px -72px;
+}
+ul .five span{
+    background-position: 264px -72px;
+}
+
+span{
+    line-height: 20px;
+}
+.lastword{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #a5a5a5;
+    font-size: 12px;
+
+}

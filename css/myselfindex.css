@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+i{
+    font-style: normal;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+body{
+    margin: 0 auto;
+}
+/*最顶部*/
+.topNac{
+    width: 100%;
+    height: 70px;
+    background: #e0e0e0;
+    display: flex;
+   margin: 0 auto 0 auto;
+
+}
+
+.neikuan{
+    width: 1226px;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    padding: 0 50px 0 50px;
+}
+
+.topNac .neikuan .left{
+    width: 286px;
+    height: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 45px;
+    color: #757575;
+
+    align-items: center;
+
+
+}
+
+.topNac .neikuan .right{
+    width: 120px;
+    height: 100%;
+
+    text-align: center;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+/*头部*/
+header{
+    width: 100%;
+    height: 176px;
+    background:url("../my index/beijing.jpg") repeat center top;
+
+}
+
+header .neikuan .Top{
+    width: 100%;
+    height: 160px;
+
+}
+header .neikuan .Top .logo{
+    width: 94px;
+    height: 94px;
+    background: url("../my index/Logo.png");
+    background-size: cover;
+    margin: 25px auto;
+}
+header .neikuan .bootom{
+    width: 100%;
+    height: 45px;
+
+}
+header .neikuan .bootom .wenzi{
+    width: 776px;
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+/*轮播*/
+.banner .bannerBox .banner1{
+    width:1520px;
+    height: 474px;
+    background: url("../my index/lunbo.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.banner .bannerBox .banner2{
+    width: 1520px;
+    height: 474px;
+    background: url("../my index/banner1.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left:1520px;
+}
+.banner .bannerBox{
+    width: 100%;
+    height: 100%;
+
+
+
+}
+.banner{
+    position: relative;
+    width: 1520px;
+    height:474px ;
+    overflow: hidden;
+
+}
+.banner .leftBtn{
+width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner .rightBtn{
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left:1478px;
+    top: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+.banner .bannerDot{
+    width: 60px;
+    height: 10px;
+    position: absolute;
+    top:450px;
+    left:50%;
+    display: flex;
+
+}
+
+.banner .bannerDot .Dot{
+    width:6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.5);
+    margin-left: 20px;
+
+}
+.banner .bannerDot .Dot.active{
+    background: #ffffff;
+}
+.banner .bannerDot .Dot:hover{
+    background: #ffffff;
+}
+
+
+
+.pic{
+    width: 100%;
+    height: 436px;
+    background: #ffffff;
+    display: flex;
+    margin-top: 48px;
+    box-sizing: border-box;
+}
+.pic .tu1{
+    width: 720px;
+    height: 406px;
+    background: url("../my index/hua1.jpg");
+    background-size: cover;
+    border: #dddddd 2px solid;
+    box-sizing: border-box;
+    margin-right: 18px;
+
+}
+.pic .tu2{
+    width: 720px;
+    height: 406px;
+    background: url("../my index/hua2.jpg");
+    background-size: cover;
+    border: #dddddd 2px solid;
+    box-sizing: border-box;
+
+}
+/*今日推荐*/
+.Newproduct{
+    width: 100%;
+    height: 180px;
+
+    display: flex;
+
+    justify-content: space-between;
+    border-bottom: #e0e0e0 1px solid;
+
+}
+
+.Newproduct .neikuan .left{
+ display: flex;
+}
+.Newproduct .Bleft{
+    width: 114px;
+    height: 56px;
+line-height: 56px;
+    font-size: 24px;
+    margin-top: 122px;
+    border-bottom: #999999 3px solid;
+}
+.Newproduct span{
+    width: 140px;
+    height: 56px;
+    line-height: 56px;
+
+    font-size: 24px;
+    margin-top: 122px;
+    border-bottom: #999999 3px solid;
+
+}
+.Newproduct .more{
+    width: 144px;
+    height: 44px;
+    font-size: 20px;
+    border: #a5a5a5 2px solid;
+    box-sizing: border-box;
+    margin-top:125px;
+    line-height: 42px;
+    text-align: center;
+    color: #969696;}
+.Newproduct .more:hover{
+    background: black;
+    color: #ffffff;
+    transition: all 1s;
+}
+section{
+    width: 100%;
+    height: 426px;
+
+    display: flex;
+    margin-top: 63px;
+
+}
+section .neikuan .kuang{
+    width: 325px;
+    height: 100%;
+ border: #e5e5e5 1px solid;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 20px;
+    /*overflow: hidden;*/
+
+
+
+}
+section .neikuan .kuang:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2);
+
+
+}
+
+section .neikuan .kuang .pic{
+    width: 300px;
+    height: 220px;
+    background: url("../my index/001.jpg");
+    background-size: cover;
+
+
+}
+section .neikuan .kuang:hover .pic{
+    transform: scale(1.2);
+    transition: all 0.8s;
+    background-size:300px 220px;
+
+}
+section .neikuan span {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: #999;
+    font-size: 20px;
+}
+/*时间记录*/
+.jilu{
+    width: 100%;
+    height: 462px;
+
+    background-size: cover;
+}
+.jilu .neikuan .Leftpicrure{
+    width: 700px;
+    height: 100%;
+}
+
+.jilu .neikuan .Leftpicrure .time{
+    width: 100%;
+    height: 89px;
+    background: #f7f7f7;
+    text-align: center;
+}
+.jilu .neikuan .Leftpicrure .time span{
+    font-size: 44px;
+
+    line-height: 89px;
+}
+
+.jilu .neikuan .Leftpicrure .tu{
+    width: 100%;
+    height: 374px;
+    background: url("../my index/shijiantu1.jpg");
+   background-size: cover;}
+.jilu .neikuan .Rightpicture{
+    width: 700px;
+    height: 100%;
+}
+.jilu .neikuan .Rightpicture .Toptu{
+    width: 100%;
+    height: 374px;
+    background: url("../my index/shijiantu2.jpg");
+    background-size: cover;
+}
+.jilu .neikuan .Rightpicture .bootmtime{
+    width: 100%;
+    height: 89px;
+    background: #f7f7f7;
+    text-align: center;
+}
+.jilu .neikuan .Rightpicture .bootmtime span{
+    font-size: 44px;
+
+    line-height: 89px;
+}
+
+
+.bigBox{
+    width: 100%;
+    height: 535px;
+    display: flex;
+    margin-top: 120px;
+}
+.bigBox .leftbox{
+    width: 800px;
+    height: 100%;
+  background: url("../my index/hua.png");
+    background-size: cover;
+
+}
+
+.bigBox .rightbox{
+    flex-grow: 1;
+
+}
+.bigBox .rightbox .content{
+    width: 390px;
+    height:430px ;
+
+    margin: 0 auto;
+    padding-top: 88px;
+    box-sizing: border-box;
+}
+.bigBox .rightbox .content .toplogo{
+    width: 100%;
+    height: 102px;
+
+    display: flex;
+    justify-content: center;
+}
+.home{
+    width: 100%;
+    height: 576px;
+}
+.home .box{
+    width: 278px;
+    height: 100%;
+
+}
+
+.home .neikuan .box .TopPic{
+    width: 270px;
+    height: 270px;
+    background: url("../my index/home1.jpg");
+    background-size: cover;
+}
+.home .neikuan .box .BootomWen{
+    width: 100%;
+    height: 336px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    line-height: 105px;
+    position: relative;
+
+}
+
+.jieshao{
+    width: 100%;
+    height:442px;
+
+    margin-top: 90px;
+
+}
+.jieshao .neikuan .word{
+    width: 776px;
+    height: 440px;
+
+    box-sizing: border-box;
+    display: flex;
+
+    flex-direction: column;
+}
+.jieshao .neikuan .word .topDis .leftPicture{
+    width: 280px;
+    height: 200px;
+    background: url("../my index/miaoshu1jpg.jpg");
+    background-size: cover;
+}
+.jieshao .neikuan .word .topDis .wenzi{
+    width: 492px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+
+}
+.jieshao .neikuan .word .topDis{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: #e5e5e5 1px solid;
+}
+.jieshao .neikuan .right{
+    flex-grow: 1;
+    margin-left: 18px;
+    background: url("../my index/miaoshu2.jpg");
+    background-size: cover;
+}
+
+.shouhou{
+    width: 100%;
+    height: 140px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shouhou .neikuan div{
+    width: 255px;
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.shouhou .neikuan .box1 .car{
+    width: 70px;
+    height: 70px;
+
+}
+.shouhou .neikuan .box1 .car img{
+    margin: 0 auto;
+}
+.shouhou .neikuan .box1 .rightS{
+   width: 153px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionbackground{
+    width: 100%;
+    height:350px ;
+    background:#f7f7f7 ;
+    margin-top: 50px;
+    position: relative;
+    padding: 80px 0 80px 0;
+    overflow: hidden;
+
+}
+.sectionbackground .neikuan .Section{
+    width: 100%;
+    height:350px;
+    border-bottom: #dedede 1px solid;
+
+    display: flex;
+
+
+}
+.sectionbackground .neikuan .Section div {
+    width: 278px;
+    /*background: red;*/
+
+}
+.sectionbackground .neikuan .Section .picbox img{
+ margin-right: 10px;
+
+}
+.sectionbackground .neikuan .Section .Swenzi{
+    display: flex;
+    flex-direction: column;
+}
+.logoin li span{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../my index/tubiao.png");
+    background-position: -24px -72px;
+    margin-right: 10px;
+
+;
+}
+ul .wenxin{
+    display: block;
+    width: 34px;
+    height: 28px;
+}
+ul .wenxin span{
+    background-position: 0px -72px;
+}
+ul .xiangji span{
+    background-position: 288px -72px;
+}
+ul .four span{
+    background-position: 216px -72px;
+}
+ul .five span{
+    background-position: 264px -72px;
+}
+
+span{
+    line-height: 20px;
+}
+.lastword{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #a5a5a5;
+    font-size: 12px;
+
+}
+.item{
+
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: -100px;
+    left: 0;
+    background: #ffffff;
+    z-index: 9999;
+
+}
+.items{
+    width: 1364px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: flex;
+
+    position: fixed;
+
+    font-size: 14px;
+
+
+}
+.items ul{
+    display: flex;
+    text-align: center;
+    width: 776px;
+    height: 50px;
+  justify-content: space-between;
+    font-size: 16px;
+
+
+    margin: 0 auto;
+}
+/*section .neikuan .kuang:hover{*/
+  /*transition: all 0.5s ;*/
+    /*transform: translate(0,-5px);*/
+/*}*/
